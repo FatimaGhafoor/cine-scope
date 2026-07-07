@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CineScope</title>
+  </head>
+  <body>
+    <!--
+Project: CineScope
+Author: Fatima Ghafoor
+
+Purpose: Movie Explorer using Vanilla JavaScript
+-->
+    <div class="container">
+      <h1>🎬 CineScope</h1>
+      <div class="search-container">
+        <label for="search-input"> Search Movie </label>
+
+        <input
+          id="search-input"
+          type="text"
+          placeholder="Enter a movie title..."
+        />
+        <button id="search-btn" type="button">Search</button>
+      </div>
+      <div id="loading-text" class="loading-text">Searching, Please wait</div>
+      <div id="movies-container"></div>
+    </div>
+  </body>
+</html>
